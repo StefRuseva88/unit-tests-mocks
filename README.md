@@ -19,3 +19,6 @@ This repository contains a series of test projects aimed at demonstrating key co
 - ItemManagementApp: Contains the application logic for managing items.
 - ItemManagementLib: A library containing core functionalities for item management.
 - ItemManagementTests: Contains unit tests for the ItemManagement project.
+### Prerequisites
+- .NET 6.0 SDK or higher
+- Visual Studio 2022 or later / Visual Studio Code
