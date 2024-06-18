@@ -6,7 +6,7 @@
 ---
 
 ### Project Description
-This repository contains a series of test projects aimed at demonstrating key concepts and techniques in back-end test automation. The focus is on unit testing, decoupling, and mocking using the Moq framework in C#. This project is part of the SoftUni QA Back-End Test Technologies course, designed to equip students with the necessary skills to effectively test back-end systems.
+This repository contains a series of test projects aimed at demonstrating key concepts and techniques in back-end test automation. The focus is on unit testing, decoupling, and mocking using the Moq framework in C#.
 
 ### Key Concepts
 - Unit Testing: Writing tests to verify the smallest units of code independently.
