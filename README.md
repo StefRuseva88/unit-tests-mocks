@@ -8,30 +8,39 @@
 ---
 
 ## Project Description
-This repository contains a series of test projects aimed at demonstrating key concepts and techniques in back-end test automation. The focus is on unit testing, decoupling, and mocking using the Moq framework in C#.
+This repository showcases several test projects designed to demonstrate essential techniques in back-end testing. The focus is primarily on unit testing, decoupling, and using the Moq framework for mocking dependencies in C#.
 
-## Key Concepts
-- Unit Testing: Writing tests to verify the smallest units of code independently.
-- Decoupling: Reducing dependencies between components to make the system more modular and testable.
-- Mocking: Using the Moq framework to simulate objects and behaviors for testing purposes.
+## Core Concepts
+- **Unit Testing:** Testing individual units of code in isolation to ensure they function as expected.
+- **Decoupling:** Minimizing dependencies between system components, enabling easier testing and greater modularity.
+- **Mocking:** Leveraging the Moq framework to create mock objects that simulate real dependencies, allowing for controlled testing scenarios.
+  
 ## Technologies Used
-- C#: The primary programming language used for the test projects.
-- Moq: A popular mocking framework for .NET.
-- NUnit: A unit-testing framework for all .NET languages.
-## GetGreeting Project
-- GetGreeting.Tests: Contains the unit tests for the GetGreeting project.
-- GetGreeting: The main project for the GetGreeting application.
-## ItemManagement Project
-- ItemManagementApp: Contains the application logic for managing items.
-- ItemManagementLib: A library containing core functionalities for item management.
-- ItemManagementTests: Contains unit tests for the ItemManagement project.
-## Prerequisites
+- **Moq:** A powerful and flexible mocking framework for .NET that simplifies creating test doubles.
+- **NUnit:** A widely used testing framework for writing and running tests in .NET environments.
+  
+## Projects in the Repository
+### 1. GetGreeting Project
+- **GetGreeting.Tests:** Contains unit tests designed to validate the functionality of the GetGreeting application.
+- **GetGreeting:** The main application project responsible for generating personalized greetings.
+
+### 3. ItemManagement Project
+- **ItemManagementApp:** The main application logic for managing items, including adding, updating, and removing items.
+- **ItemManagementLib:** A shared library that contains the core functionalities used by the ItemManagementApp.
+- **ItemManagementTests:** A collection of unit tests written to validate the behavior and functionality of the ItemManagement project.
+
+## Requirements
+To run and modify these test projects, you’ll need:
+
 - .NET 6.0 SDK or higher
-- Visual Studio 2022 or later / Visual Studio Code
+- Visual Studio 2022 or later / Visual Studio Codee
+  
 ## Contributing
 Contributions are welcome! If you have any improvements or bug fixes, feel free to open a pull request.
+
 ## License
 This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
+
 ## Contact
 For any questions or suggestions, please reach out to me or open an issue in the repository.
 
