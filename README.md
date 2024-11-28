@@ -34,9 +34,6 @@ To run and modify these test projects, you’ll need:
 
 - .NET 6.0 SDK or higher
 - Visual Studio 2022 or later / Visual Studio Codee
-  
-## Contributing
-Contributions are welcome! If you have any improvements or bug fixes, feel free to open a pull request.
 
 ## License
 This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
